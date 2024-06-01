@@ -1,0 +1,27 @@
+fun persegipnjng(nilaia: Int, nilaib: Int): Int {
+    return nilaia * nilaib
+}
+fun segitiga(nilaia: Int, nilaib: Int): Double {
+    return 0.5 * nilaia * nilaib
+}
+fun main(){
+    val add = jumlah(10,23)
+    println("Ini adalah hasil penjumlahan: $add")
+     val krng = kurang(10,23)
+    println("Ini adalah hasil pengurangan: $krng")
+     val kali = kali(10,23)
+    println("Ini adalah hasil perkalian: $kali")
+     val bagi = bagi(10.0,23.0)
+    println("Ini adalah hasil pembagian: $bagi")
+    val persegipnjng = persegipnjng(10,23)
+    println("Ini adalah Luas Persegi panjang: $persegipnjng")
+    val segitiga = segitiga(100,5)
+    println("Ini adalah Luas Segitiga: $segitiga")
+}
+output:
+Ini adalah hasil penjumlahan: 33
+Ini adalah hasil pengurangan: -13
+Ini adalah hasil perkalian: 230
+Ini adalah hasil pembagian: 0.43478260869565216
+Ini adalah Luas Persegi panjang: 230
+Ini adalah Luas Segitiga: 250.0

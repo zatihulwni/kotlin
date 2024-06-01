@@ -1,0 +1,9 @@
+fun Rapot(nama: String, Total: Int, Ranking:Int){
+    println("Nilai $nama Totalnya $Total mendapatkan ranking $Ranking")
+}
+fun main(){
+    Rapot("Budi", 350, 10)
+   
+}
+output:
+Nilai Budi Totalnya 350 mendapatkan ranking 10

@@ -1,0 +1,11 @@
+fun checkLulus(mtk: Int, inggris: Int, indonesia: Int, pkn: Int): String {
+    if (mtk >= 80 && inggris >= 90 && indonesia >= 100 && pkn >= 75) {
+        return "Lulus"
+    } else {
+        return "Tidak Lulus"
+    }
+}
+
+fun main() {
+    println(checkLulus(80, 90, 100, 75))
+}

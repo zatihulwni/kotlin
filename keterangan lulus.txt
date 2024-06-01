@@ -1,0 +1,28 @@
+fun predikat(nilai: Int): String {
+    if(nilai >= 60 && nilai <= 74){
+        return "cukup"
+    }
+    else if(nilai >= 75 && nilai <= 84){
+        return "baik"
+    }
+    else if(nilai >= 85){
+        return "sangat baik"
+    }
+    else{
+        return "tidak ada"
+    }
+}
+fun lulus(nilai: Int): String{
+    if(nilai >=65){
+        return "lulus"
+    }
+    else{
+        return "tidak lulus"
+    }
+}
+fun main(){
+    val nama = "joni"
+    val add = lulus(70)
+    val ad = predikat(80)
+    print("$nama,$add dengan predikat $add")
+}

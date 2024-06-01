@@ -1,0 +1,27 @@
+fun main() {
+val a = 5
+val b = 4
+val c = 10
+val luaspersegipanjang = a * b
+val luaspersegi = a * a
+val volumebalok = a * b * c
+val volumekubus = a * a * a
+    val luasbalok = 2 * ((a * b) + (a * c) + (b * c))
+    val luaskubus = 6 * (a * a)
+    
+    println("Luas persegi panjang = $luaspersegipanjang")
+    println("Luas persegi = $luaspersegi")
+    println("Luas volume balok = $volumebalok")
+    println("Luas volume kubus = $volumekubus")  
+    println("Luas balok = $luasbalok")  
+    println("Luas kubus = $luaskubus")  
+}
+​
+​
+output:
+Luas persegi panjang = 20
+Luas persegi = 25
+Luas volume balok = 200
+Luas volume kubus = 125
+Luas balok = 220
+Luas kubus = 150
